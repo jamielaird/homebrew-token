@@ -1,6 +1,6 @@
 cask "token" do
-  version "1.1.0"
-  sha256 "2243aed310a46535f736da934a41c0bf98ef54b59b230d0d41962ad4243bf6ce"
+  version "1.2.0"
+  sha256 "4a210a0f04fd3025e5dfe0a3906b10d28c9608388adeaec3d84b39456b3318e0"
 
   url "https://github.com/jamielaird/homebrew-token/releases/download/v#{version}/Token-#{version}.zip"
   name "Token"
