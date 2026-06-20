@@ -4,7 +4,7 @@ cask "token" do
 
   url "https://github.com/jamielaird/homebrew-token/releases/download/v#{version}/Token-#{version}.zip"
   name "Token"
-  desc "Menu-bar monitor for Claude Code usage, plan quota, and AI API spend"
+  desc "Menu-bar monitor for Claude Code and Codex CLI token usage"
   homepage "https://github.com/jamielaird/token"
 
   livecheck do
