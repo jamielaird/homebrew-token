@@ -1,6 +1,6 @@
 # homebrew-token
 
-Homebrew tap for [Token](https://github.com/jamielaird/token), a macOS menu-bar monitor for Claude Code and OpenAI Codex CLI token usage. Fully local, no API keys. Formerly named Quota.
+Homebrew tap for [Token](https://github.com/jamielaird/token), a macOS menu-bar monitor for Claude Code and OpenAI Codex CLI token usage. Fully local, no API keys.
 
 ```sh
 brew install --cask jamielaird/token/token
