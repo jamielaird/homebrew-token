@@ -18,13 +18,13 @@ cask "token" do
 
   # Token is ad-hoc signed (not notarized), so strip the download quarantine
   # after install — otherwise macOS Gatekeeper blocks the first launch.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Token.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args: ["-dr", "com.apple.quarantine", "{{appdir}}/Token.app"]
   end
 
   zap trash: [
-    "~/Library/Preferences/app.token.Token.plist",
     "~/Library/Preferences/app.quota.Quota.plist",
+    "~/Library/Preferences/app.token.Token.plist",
   ]
 end
